@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>396337821741-4cs2ke3tt0810jgpv3c3k5t8vl797fhh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.396337821741-4cs2ke3tt0810jgpv3c3k5t8vl797fhh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDwHmgwuKhItmeygzsD2cNiR3R_NxIZ-Q8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>396337821741</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>VietKpz.TopsMarket</string>
+	<key>PROJECT_ID</key>
+	<string>topsmarket-cf7e6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>topsmarket-cf7e6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:396337821741:ios:9f9a01c46eecf5377ba0a4</string>
+</dict>
+</plist>

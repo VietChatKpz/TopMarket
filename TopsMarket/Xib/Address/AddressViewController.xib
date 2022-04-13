@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddressViewController" customModule="TopsMarket" customModuleProvider="target">
+            <connections>
+                <outlet property="cityButton" destination="nk7-uo-wIm" id="PNG-mq-z0Q"/>
+                <outlet property="districtButton" destination="b5g-R3-y3v" id="5TW-lG-Pii"/>
+                <outlet property="okButton" destination="8Ln-YX-Hjp" id="t1E-Pv-0W1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="euz-Ie-Ptu">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yha-Bq-qqX">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chọn quận/huyện nhận hàng" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3l3-G0-bPd">
+                                    <rect key="frame" x="83" y="24.666666666666671" width="248" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="248" id="BYg-Hb-K8f"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="3l3-G0-bPd" firstAttribute="centerX" secondItem="Yha-Bq-qqX" secondAttribute="centerX" id="OnE-Sb-bzC"/>
+                                <constraint firstItem="3l3-G0-bPd" firstAttribute="centerY" secondItem="Yha-Bq-qqX" secondAttribute="centerY" id="V19-2O-5D8"/>
+                                <constraint firstAttribute="height" constant="70" id="zZy-cn-q0C"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thành phố" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaD-aO-KhP">
+                            <rect key="frame" x="16" y="94" width="81.666666666666671" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Huyện" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozk-zJ-UCr">
+                            <rect key="frame" x="16" y="187" width="49" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nk7-uo-wIm">
+                            <rect key="frame" x="16" y="127" width="382" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="5tY-mh-3Wf"/>
+                                <constraint firstAttribute="width" constant="382" id="WzW-h5-maY"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Thành Phố Hà Nội"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="cityAction:" destination="-1" eventType="touchUpInside" id="mXT-XM-TTe"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5g-R3-y3v">
+                            <rect key="frame" x="16" y="220" width="382" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="JwA-f2-z2x"/>
+                                <constraint firstAttribute="width" constant="382" id="Lwj-ME-DAq"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Huyện Thanh Oai"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="districtAction:" destination="-1" eventType="touchUpInside" id="09M-Na-wTm"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ln-YX-Hjp">
+                            <rect key="frame" x="16" y="648" width="382" height="48"/>
+                            <color key="backgroundColor" red="0.25098039220000001" green="0.56862745100000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="3bZ-M3-AuJ"/>
+                                <constraint firstAttribute="width" constant="382" id="G1N-3j-yJx"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Xác Nhận"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="okAction:" destination="-1" eventType="touchUpInside" id="NWU-N4-qgc"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tops Market sẽ căn cứ lựa chọn này để hiện thị sản phẩm phù hợp" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXC-Yi-NEL">
+                            <rect key="frame" x="83" y="576" width="248" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="248" id="3yN-cC-4SB"/>
+                                <constraint firstAttribute="height" constant="48" id="RH0-kR-yob"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="gaD-aO-KhP" firstAttribute="leading" secondItem="euz-Ie-Ptu" secondAttribute="leading" constant="16" id="1FI-wQ-YQW"/>
+                        <constraint firstAttribute="bottom" secondItem="8Ln-YX-Hjp" secondAttribute="bottom" constant="40" id="A7h-pa-wLf"/>
+                        <constraint firstItem="b5g-R3-y3v" firstAttribute="centerX" secondItem="euz-Ie-Ptu" secondAttribute="centerX" id="Hmb-SX-WK9"/>
+                        <constraint firstItem="PXC-Yi-NEL" firstAttribute="centerX" secondItem="euz-Ie-Ptu" secondAttribute="centerX" id="RbJ-JI-Otp"/>
+                        <constraint firstItem="ozk-zJ-UCr" firstAttribute="leading" secondItem="euz-Ie-Ptu" secondAttribute="leading" constant="16" id="dfe-nv-iHK"/>
+                        <constraint firstItem="Yha-Bq-qqX" firstAttribute="top" secondItem="euz-Ie-Ptu" secondAttribute="top" id="f0n-Ie-Re3"/>
+                        <constraint firstItem="8Ln-YX-Hjp" firstAttribute="centerX" secondItem="euz-Ie-Ptu" secondAttribute="centerX" id="haz-VE-sVn"/>
+                        <constraint firstItem="nk7-uo-wIm" firstAttribute="top" secondItem="gaD-aO-KhP" secondAttribute="bottom" constant="12" id="p7p-IH-YUA"/>
+                        <constraint firstItem="8Ln-YX-Hjp" firstAttribute="top" secondItem="PXC-Yi-NEL" secondAttribute="bottom" constant="24" id="pX2-vy-Q3U"/>
+                        <constraint firstItem="nk7-uo-wIm" firstAttribute="centerX" secondItem="euz-Ie-Ptu" secondAttribute="centerX" id="pXE-In-XzO"/>
+                        <constraint firstItem="gaD-aO-KhP" firstAttribute="top" secondItem="Yha-Bq-qqX" secondAttribute="bottom" constant="24" id="sVl-kz-wtp"/>
+                        <constraint firstItem="Yha-Bq-qqX" firstAttribute="leading" secondItem="euz-Ie-Ptu" secondAttribute="leading" id="tJb-GS-EZY"/>
+                        <constraint firstAttribute="trailing" secondItem="Yha-Bq-qqX" secondAttribute="trailing" id="w97-Df-cJQ"/>
+                        <constraint firstItem="ozk-zJ-UCr" firstAttribute="top" secondItem="nk7-uo-wIm" secondAttribute="bottom" constant="12" id="wDN-gT-8Iy"/>
+                        <constraint firstItem="b5g-R3-y3v" firstAttribute="top" secondItem="ozk-zJ-UCr" secondAttribute="bottom" constant="12" id="wDP-Fu-9Va"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="euz-Ie-Ptu" secondAttribute="bottom" id="DWB-8n-5p0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="euz-Ie-Ptu" secondAttribute="trailing" id="EAq-hH-ytU"/>
+                <constraint firstItem="euz-Ie-Ptu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="FZw-0J-ou6"/>
+                <constraint firstItem="euz-Ie-Ptu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Iw3-Nn-Xnh"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="100"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
