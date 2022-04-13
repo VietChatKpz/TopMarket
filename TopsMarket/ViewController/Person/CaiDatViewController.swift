@@ -36,7 +36,7 @@ class CaiDatViewController: UIViewController {
             complection?(nameTextField.text)
             dismiss(animated: true)
         }else {
-            let toast = Toast.text("Bạn chưa nhập đầy đủ thông tin")
+            let toast = Toast.text("Bạn chưa nhập đầy đủ thông tin ")
             toast.show()
         }
         
