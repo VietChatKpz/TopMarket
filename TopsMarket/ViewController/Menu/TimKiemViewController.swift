@@ -32,12 +32,12 @@ class TimKiemViewController: UIViewController {
 
 extension TimKiemViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return arrSP.count
+        return arrData.count
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = timKiemCollection.dequeueReusableCell(withReuseIdentifier: "TimCell", for: indexPath) as! ThirdCollectionViewCell
-        cell.setUpSP(with: arrSP[indexPath.row])
+        cell.setUpSP(with: arrData[indexPath.row])
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

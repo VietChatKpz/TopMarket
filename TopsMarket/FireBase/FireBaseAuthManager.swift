@@ -7,42 +7,56 @@
 
 import Foundation
 import FirebaseAuth
+import FirebaseDatabase
 
-class FirebaseAuthManager {
-    static let shared = FirebaseAuthManager()
+final class DatabaseManager {
     
-    func login(mail email: String, pass password: String, completion completionBlock: @escaping ((_ success: Bool, _ data: String?) -> Void)) {
-        Auth.auth().signIn(withEmail: email, password: password) { result, error in
-            if let error = error {
-                completionBlock(false, "\(error.localizedDescription)")
-            } else {
-                if let user = result?.user {
-                    completionBlock(true, "\(user.uid)")
-                }
+    static let shared = DatabaseManager()
+    
+    private let database = Database.database().reference()
+    
+    
+}
+
+// MARK: - Account Management
+
+extension DatabaseManager{
+    
+    public func userExists(with email: String, completion: @escaping ((Bool) -> Void)) {
+        
+        var sefeEmail = email.replacingOccurrences(of: ".", with: "-")
+        sefeEmail = sefeEmail.replacingOccurrences(of: "@", with: "-")
+        
+        database.child(sefeEmail).observeSingleEvent(of: .value, with: { snapshot in
+            guard snapshot.value as? String != nil else {
+                completion(false)
+                return
             }
-        }
+            
+            completion(true)
+        })
+        
     }
     
-    func register(mail email: String, pass password: String, completion completionBlock: @escaping ((_ success: Bool, _ data: String?) -> Void)) {
-        Auth.auth().createUser(withEmail: email, password: password) { result, error in
-            if let error = error {
-                completionBlock(false, "\(error.localizedDescription)")
-            } else {
-                if let user = result?.user {
-                    completionBlock(true, "\(user.uid)")
-                }
-            }
-        }
-    }
     
-    func logOut(completion complectionBlock: @escaping ((_ success: Bool) -> Void)){
-        do {
-            try Auth.auth().signOut()
-            complectionBlock(true)
-        }catch {
-            print("Error Logout", error.localizedDescription)
-            complectionBlock(false)
-        }
+    /// Inserts new user to database
+    public func insertUser(with user: TopsMarket) {
+        database.child(user.safeEmail).setValue([
+            "first_name": user.firstName,
+            "last_name": user.lastName
+        ])
     }
+}
+
+struct TopsMarket {
+    let firstName: String
+    let lastName: String
+    let emailAddress: String
     
+    var safeEmail: String {
+        var sefeEmail = emailAddress.replacingOccurrences(of: ".", with: "-")
+        sefeEmail = sefeEmail.replacingOccurrences(of: "@", with: "-")
+        return sefeEmail
+    }
+    //    let profilePictureUrl: String
 }

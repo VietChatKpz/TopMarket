@@ -148,6 +148,7 @@ extension MenuViewController: UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == secondCollectionView {
             let danhMucCV = DanhMucViewController()
+            danhMucCV.modalPresentationStyle = .fullScreen
             present(danhMucCV, animated: true)
         }
         if collectionView == thirtCollectionView {

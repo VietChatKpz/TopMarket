@@ -21,7 +21,6 @@
 		9017BD8327FB253300C11188 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9017BD8127FB253300C11188 /* ImageCollectionViewCell.xib */; };
 		901C473B2804098E002AE4FF /* ThongTinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C47392804098E002AE4FF /* ThongTinViewController.swift */; };
 		901C473C2804098E002AE4FF /* ThongTinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901C473A2804098E002AE4FF /* ThongTinViewController.xib */; };
-		905E64CC27CB9AF8003A8EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E64CB27CB9AF8003A8EB0 /* AppDelegate.swift */; };
 		905E64D527CB9AFA003A8EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905E64D427CB9AFA003A8EB0 /* Assets.xcassets */; };
 		905E64E127CB9B79003A8EB0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E64DF27CB9B79003A8EB0 /* LogInViewController.swift */; };
 		905E64E227CB9B79003A8EB0 /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905E64E027CB9B79003A8EB0 /* LogInViewController.xib */; };
@@ -31,6 +30,7 @@
 		905E64EA27CBB5BE003A8EB0 /* AddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905E64E827CBB5BE003A8EB0 /* AddressViewController.xib */; };
 		905E64ED27CBB5D1003A8EB0 /* NotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E64EB27CBB5D1003A8EB0 /* NotifyViewController.swift */; };
 		905E64EE27CBB5D1003A8EB0 /* NotifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905E64EC27CBB5D1003A8EB0 /* NotifyViewController.xib */; };
+		9063A888280AAB2F00D09A8F /* client_380308180835-jur5nnr1p7l70fvjhlqiek1vbvgeud7c.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9063A887280AAB2F00D09A8F /* client_380308180835-jur5nnr1p7l70fvjhlqiek1vbvgeud7c.apps.googleusercontent.com.plist */; };
 		90672D5627F4011C00A8B0B3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90672D5527F4011C00A8B0B3 /* TabBarViewController.swift */; };
 		90672D5927F410D000A8B0B3 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90672D5727F410D000A8B0B3 /* FirstCollectionViewCell.swift */; };
 		90672D5A27F410D000A8B0B3 /* FirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90672D5827F410D000A8B0B3 /* FirstCollectionViewCell.xib */; };
@@ -42,6 +42,7 @@
 		907F17F627E8A04E00320C1D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907F17F527E8A04E00320C1D /* Launch Screen.storyboard */; };
 		9084EA8F27D10C5A00E91637 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9084EA8E27D10C5A00E91637 /* video.mp4 */; };
 		908C241527F0A1DF00CD4343 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 908C241427F0A1DF00CD4343 /* GoogleService-Info.plist */; };
+		909226A92807DF5E00E6ADB7 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909226A82807DF5E00E6ADB7 /* ConversationsViewController.swift */; };
 		90B80AA927EC5DA300996682 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B80AA727EC5DA300996682 /* CityViewController.swift */; };
 		90B80AAA27EC5DA300996682 /* CityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B80AA827EC5DA300996682 /* CityViewController.xib */; };
 		90B80AAD27EC5F5400996682 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B80AAB27EC5F5400996682 /* CityTableViewCell.swift */; };
@@ -64,6 +65,7 @@
 		90E33D6A280669A900BDE177 /* NgayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90E33D68280669A900BDE177 /* NgayTableViewCell.xib */; };
 		90E33D6D28066B5C00BDE177 /* NgayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E33D6B28066B5C00BDE177 /* NgayViewController.swift */; };
 		90E33D6E28066B5C00BDE177 /* NgayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90E33D6C28066B5C00BDE177 /* NgayViewController.xib */; };
+		90FD20FE2809C646001E6F55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E64CB27CB9AF8003A8EB0 /* AppDelegate.swift */; };
 		D091CBE010AF9FFFBD0FD3C4 /* Pods_TopsMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4486C4E39BF4F1B06C33470B /* Pods_TopsMarket.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,7 +89,6 @@
 		905E64C827CB9AF8003A8EB0 /* TopsMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopsMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		905E64CB27CB9AF8003A8EB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		905E64D427CB9AFA003A8EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		905E64D927CB9AFA003A8EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = TopsMarket/Helper/Info.plist; sourceTree = "<group>"; };
 		905E64DF27CB9B79003A8EB0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		905E64E027CB9B79003A8EB0 /* LogInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
 		905E64E327CBA600003A8EB0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 		905E64E827CBB5BE003A8EB0 /* AddressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressViewController.xib; sourceTree = "<group>"; };
 		905E64EB27CBB5D1003A8EB0 /* NotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyViewController.swift; sourceTree = "<group>"; };
 		905E64EC27CBB5D1003A8EB0 /* NotifyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotifyViewController.xib; sourceTree = "<group>"; };
+		9063A887280AAB2F00D09A8F /* client_380308180835-jur5nnr1p7l70fvjhlqiek1vbvgeud7c.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_380308180835-jur5nnr1p7l70fvjhlqiek1vbvgeud7c.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
 		90672D5527F4011C00A8B0B3 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		90672D5727F410D000A8B0B3 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
 		90672D5827F410D000A8B0B3 /* FirstCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -107,6 +109,8 @@
 		907F17F527E8A04E00320C1D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9084EA8E27D10C5A00E91637 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		908C241427F0A1DF00CD4343 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		909226A82807DF5E00E6ADB7 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		90AC36EA2809AFF10015A116 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90B80AA727EC5DA300996682 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 		90B80AA827EC5DA300996682 /* CityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityViewController.xib; sourceTree = "<group>"; };
 		90B80AAB27EC5F5400996682 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				9017BD7927F9D91400C11188 /* FireBaseAuthManager.swift */,
+				909226A82807DF5E00E6ADB7 /* ConversationsViewController.swift */,
 			);
 			path = FireBase;
 			sourceTree = "<group>";
@@ -244,7 +249,6 @@
 			isa = PBXGroup;
 			children = (
 				905E64CA27CB9AF8003A8EB0 /* TopsMarket */,
-				905E64D927CB9AFA003A8EB0 /* Info.plist */,
 				905E64C927CB9AF8003A8EB0 /* Products */,
 				90C1DE5C27EDA18D0090A02B /* Helper */,
 				92EB90BA13A019A2EB53B140 /* Pods */,
@@ -263,6 +267,8 @@
 		905E64CA27CB9AF8003A8EB0 /* TopsMarket */ = {
 			isa = PBXGroup;
 			children = (
+				9063A887280AAB2F00D09A8F /* client_380308180835-jur5nnr1p7l70fvjhlqiek1vbvgeud7c.apps.googleusercontent.com.plist */,
+				90AC36EA2809AFF10015A116 /* Info.plist */,
 				9017BD7D27FAD98D00C11188 /* Moder */,
 				9017BD7827F9D8F100C11188 /* FireBase */,
 				905E64CB27CB9AF8003A8EB0 /* AppDelegate.swift */,
@@ -466,6 +472,7 @@
 				905E64D527CB9AFA003A8EB0 /* Assets.xcassets in Resources */,
 				90C1DE6027EDEA9B0090A02B /* DanhMucViewController.xib in Resources */,
 				90E33D652806639100BDE177 /* DanhSachViewController.xib in Resources */,
+				9063A888280AAB2F00D09A8F /* client_380308180835-jur5nnr1p7l70fvjhlqiek1vbvgeud7c.apps.googleusercontent.com.plist in Resources */,
 				9084EA8F27D10C5A00E91637 /* video.mp4 in Resources */,
 				90C1DE6427EDEBE50090A02B /* PersonViewController.xib in Resources */,
 				905E64EA27CBB5BE003A8EB0 /* AddressViewController.xib in Resources */,
@@ -546,8 +553,8 @@
 				90C1DE6727EDEF4D0090A02B /* RegisterViewController.swift in Sources */,
 				905E64ED27CBB5D1003A8EB0 /* NotifyViewController.swift in Sources */,
 				905E64E527CBA600003A8EB0 /* MenuViewController.swift in Sources */,
-				905E64CC27CB9AF8003A8EB0 /* AppDelegate.swift in Sources */,
 				9017BD7F27FAD9BF00C11188 /* Slider.swift in Sources */,
+				909226A92807DF5E00E6ADB7 /* ConversationsViewController.swift in Sources */,
 				90E33D642806639100BDE177 /* DanhSachViewController.swift in Sources */,
 				90672D5927F410D000A8B0B3 /* FirstCollectionViewCell.swift in Sources */,
 				905E64E927CBB5BE003A8EB0 /* AddressViewController.swift in Sources */,
@@ -557,6 +564,7 @@
 				90672D6327F4450800A8B0B3 /* YeuThichViewController.swift in Sources */,
 				9017BD7227F9814100C11188 /* SanPham.swift in Sources */,
 				90C1DE5F27EDEA9B0090A02B /* DanhMucViewController.swift in Sources */,
+				90FD20FE2809C646001E6F55 /* AppDelegate.swift in Sources */,
 				9017BD8227FB253300C11188 /* ImageCollectionViewCell.swift in Sources */,
 				90672D5627F4011C00A8B0B3 /* TabBarViewController.swift in Sources */,
 				90B80AA927EC5DA300996682 /* CityViewController.swift in Sources */,
@@ -697,6 +705,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TopsMarket/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to select a photo for your profile";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -724,6 +734,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TopsMarket/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to select a photo for your profile";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

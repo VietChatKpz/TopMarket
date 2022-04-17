@@ -11,6 +11,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController" customModule="TopsMarket" customModuleProvider="target">
             <connections>
                 <outlet property="emailTextField" destination="Prc-rd-xP5" id="QDZ-K4-w2U"/>
+                <outlet property="firstNameTextField" destination="rzt-O1-Vkk" id="av4-zW-6oe"/>
+                <outlet property="lastNameTextField" destination="40M-Di-y4f" id="H9w-Th-ZDQ"/>
                 <outlet property="logoView" destination="4wk-Pf-vuo" id="h1Y-s5-gJC"/>
                 <outlet property="passworkTextField" destination="ZNz-Or-ZtJ" id="AXy-Va-WM4"/>
                 <outlet property="registerButton" destination="LCy-qq-wuV" id="syr-7g-plM"/>
@@ -69,15 +71,23 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập tài khoản của bạn" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Prc-rd-xP5">
-                            <rect key="frame" x="32" y="258.33333333333331" width="364" height="60"/>
+                            <rect key="frame" x="32" y="402.33333333333331" width="364" height="60"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="60" id="s3U-WC-YiG"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập họ tên của bạn" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rzt-O1-Vkk">
+                            <rect key="frame" x="32" y="258.33333333333331" width="364" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="izT-Ya-f4d"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập mật khẩu của bạn" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZNz-Or-ZtJ">
-                            <rect key="frame" x="32" y="330.33333333333331" width="364" height="60"/>
+                            <rect key="frame" x="32" y="474.33333333333331" width="364" height="59.999999999999943"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="60" id="I1d-ik-1WP"/>
                             </constraints>
@@ -106,33 +116,38 @@
                                 <action selector="loginAction:" destination="-1" eventType="touchUpInside" id="nmw-IQ-5Rp"/>
                             </connections>
                         </button>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logobigc" translatesAutoresizingMaskIntoConstraints="NO" id="dkg-q2-B9N">
-                            <rect key="frame" x="0.0" y="520" width="428" height="208"/>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập tên đệm của bạn" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="40M-Di-y4f">
+                            <rect key="frame" x="32" y="330.33333333333331" width="364" height="60"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="208" id="HYK-Nr-sHe"/>
+                                <constraint firstAttribute="height" constant="60" id="vFt-Wl-2Sl"/>
                             </constraints>
-                        </imageView>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
-                        <constraint firstItem="LCy-qq-wuV" firstAttribute="top" secondItem="dkg-q2-B9N" secondAttribute="bottom" constant="80" id="07M-Pk-N3v"/>
                         <constraint firstItem="uxe-Um-pgP" firstAttribute="leading" secondItem="orP-lU-y2u" secondAttribute="leading" id="4Ll-vQ-bot"/>
                         <constraint firstItem="Prc-rd-xP5" firstAttribute="centerX" secondItem="orP-lU-y2u" secondAttribute="centerX" id="7dy-v4-IVc"/>
                         <constraint firstAttribute="trailing" secondItem="oGT-z4-Oxz" secondAttribute="trailing" constant="32" id="8fj-6g-GGT"/>
                         <constraint firstItem="uxe-Um-pgP" firstAttribute="top" secondItem="orP-lU-y2u" secondAttribute="top" id="8hF-Oe-R6m"/>
                         <constraint firstItem="oGT-z4-Oxz" firstAttribute="top" secondItem="LCy-qq-wuV" secondAttribute="bottom" constant="12" id="8pP-ac-n0h"/>
-                        <constraint firstItem="dkg-q2-B9N" firstAttribute="leading" secondItem="orP-lU-y2u" secondAttribute="leading" id="LJo-70-rUu"/>
+                        <constraint firstItem="40M-Di-y4f" firstAttribute="top" secondItem="rzt-O1-Vkk" secondAttribute="bottom" constant="12" id="A2t-Nv-CYY"/>
+                        <constraint firstItem="40M-Di-y4f" firstAttribute="leading" secondItem="orP-lU-y2u" secondAttribute="leading" constant="32" id="DPW-Kq-okK"/>
                         <constraint firstAttribute="trailing" secondItem="Prc-rd-xP5" secondAttribute="trailing" constant="32" id="Q4b-Le-M4P"/>
                         <constraint firstAttribute="bottom" secondItem="oGT-z4-Oxz" secondAttribute="bottom" constant="27" id="RTD-AX-NVH"/>
-                        <constraint firstAttribute="trailing" secondItem="dkg-q2-B9N" secondAttribute="trailing" id="WxK-7D-xlc"/>
                         <constraint firstItem="ZNz-Or-ZtJ" firstAttribute="top" secondItem="Prc-rd-xP5" secondAttribute="bottom" constant="12" id="X3w-aT-z1U"/>
                         <constraint firstAttribute="trailing" secondItem="LCy-qq-wuV" secondAttribute="trailing" constant="32" id="Yvc-Ve-wGi"/>
                         <constraint firstItem="Prc-rd-xP5" firstAttribute="leading" secondItem="orP-lU-y2u" secondAttribute="leading" constant="32" id="Zwp-EB-RIH"/>
+                        <constraint firstItem="rzt-O1-Vkk" firstAttribute="leading" secondItem="orP-lU-y2u" secondAttribute="leading" constant="32" id="c6P-x0-UP8"/>
                         <constraint firstAttribute="trailing" secondItem="uxe-Um-pgP" secondAttribute="trailing" id="gTh-cu-aO2"/>
-                        <constraint firstItem="Prc-rd-xP5" firstAttribute="top" secondItem="WXE-3e-u52" secondAttribute="bottom" constant="20" id="gw6-YA-3xW"/>
+                        <constraint firstItem="rzt-O1-Vkk" firstAttribute="top" secondItem="WXE-3e-u52" secondAttribute="bottom" constant="20" id="ikn-ei-Pm3"/>
                         <constraint firstItem="LCy-qq-wuV" firstAttribute="leading" secondItem="orP-lU-y2u" secondAttribute="leading" constant="32" id="ikv-pl-Xrh"/>
+                        <constraint firstItem="Prc-rd-xP5" firstAttribute="top" secondItem="40M-Di-y4f" secondAttribute="bottom" constant="12" id="jYy-ao-j2R"/>
                         <constraint firstItem="WXE-3e-u52" firstAttribute="centerX" secondItem="orP-lU-y2u" secondAttribute="centerX" id="khS-c3-PNX"/>
                         <constraint firstAttribute="trailing" secondItem="ZNz-Or-ZtJ" secondAttribute="trailing" constant="32" id="oK0-Ru-wu1"/>
+                        <constraint firstAttribute="trailing" secondItem="rzt-O1-Vkk" secondAttribute="trailing" constant="32" id="oP4-vr-5tk"/>
+                        <constraint firstAttribute="trailing" secondItem="40M-Di-y4f" secondAttribute="trailing" constant="32" id="rQF-L0-7cz"/>
                         <constraint firstItem="ZNz-Or-ZtJ" firstAttribute="leading" secondItem="orP-lU-y2u" secondAttribute="leading" constant="32" id="tkS-RS-LkZ"/>
                         <constraint firstItem="ZNz-Or-ZtJ" firstAttribute="centerX" secondItem="orP-lU-y2u" secondAttribute="centerX" id="y4y-V5-kMC"/>
                         <constraint firstItem="WXE-3e-u52" firstAttribute="top" secondItem="uxe-Um-pgP" secondAttribute="bottom" constant="20" id="zVH-fa-yhj"/>
@@ -151,7 +166,6 @@
         </view>
     </objects>
     <resources>
-        <image name="logobigc" width="1280" height="720"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

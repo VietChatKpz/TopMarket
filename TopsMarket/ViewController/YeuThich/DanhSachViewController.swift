@@ -21,6 +21,7 @@ class DanhSachViewController: UIViewController {
 
         lapLaiButton.layer.borderWidth = 1.0
         lapLaiButton.layer.borderColor = UIColor(red: 0.25, green: 0.57, blue: 0.30, alpha: 1.00).cgColor
+        datePicker.preferredDatePickerStyle = UIDatePickerStyle.inline
         createDatePicker()
     }
 

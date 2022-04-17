@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import FirebaseAuth
+import FBSDKLoginKit
 
 class PersonViewController: UIViewController {
     
@@ -17,17 +19,32 @@ class PersonViewController: UIViewController {
     }
 
     @IBAction func dangXuatAction(_ sender: Any) {
-        FirebaseAuthManager.shared.logOut { [weak self] status in
+        //        FirebaseAuthManager.shared.logOut { [weak self] status in
+        //            guard let strongSelf = self else { return }
+        //
+        //            if status {
+        let actionSheet = UIAlertController(title: "Đăng xuất", message: "Bạn có muốn đăng xuất không?", preferredStyle: .actionSheet)
+        
+        actionSheet.addAction(UIAlertAction(title: "Đăng xuất", style: .destructive, handler: { [weak self] _ in
             guard let strongSelf = self else { return }
             
-            if status {
-                strongSelf.dismiss(animated: true, completion: nil)
-//                print("Dang xuat")
-            }else{
-                let message = "Dang xuat that bai"
-                AlertHelper.showAlert(message: message, viewController: strongSelf)
+            //Logout Facebook
+            FBSDKLoginKit.LoginManager().logOut()
+            
+            do {
+                try FirebaseAuth.Auth.auth().signOut()
+                UserDefaults.standard.setValue(false, forKey: "login")
+                let vc = LogInViewController()
+                let nav = UINavigationController(rootViewController: vc)
+                nav.modalPresentationStyle = .fullScreen
+                strongSelf.present(nav, animated: true)
+            }catch{
+                print("Đăng xuất thất bại")
             }
-        }
+        }))
+        actionSheet.addAction(UIAlertAction(title: "Huỷ", style: .cancel, handler: nil))
+        present(actionSheet, animated: true)
+ 
     }
     @IBAction func caiDatAction(_ sender: Any) {
         let caiDatText = CaiDatViewController()

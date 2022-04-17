@@ -412,7 +412,7 @@
                                             </connections>
                                         </button>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVt-hG-n2p">
-                                            <rect key="frame" x="0.0" y="416" width="428" height="304"/>
+                                            <rect key="frame" x="0.0" y="416" width="428" height="260"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CÔNG TY TNHH DỊCH VỤ EB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9j-Lr-FR8">
                                                     <rect key="frame" x="92.666666666666671" y="28" width="242.66666666666663" height="21.666666666666671"/>
@@ -501,7 +501,7 @@
                                         <constraint firstAttribute="trailing" secondItem="Kyj-n3-N9c" secondAttribute="trailing" id="TWu-J2-R1v"/>
                                         <constraint firstAttribute="trailing" secondItem="PVt-hG-n2p" secondAttribute="trailing" id="VOc-Ge-2Pm"/>
                                         <constraint firstItem="igB-DH-6l6" firstAttribute="top" secondItem="rLF-Rh-hOs" secondAttribute="bottom" id="XXg-7k-J18"/>
-                                        <constraint firstAttribute="bottom" secondItem="PVt-hG-n2p" secondAttribute="bottom" id="Xyt-EV-8b1"/>
+                                        <constraint firstAttribute="bottom" secondItem="PVt-hG-n2p" secondAttribute="bottom" constant="44" id="Xyt-EV-8b1"/>
                                         <constraint firstItem="YLz-eQ-rLY" firstAttribute="top" secondItem="cia-Af-Oja" secondAttribute="bottom" id="aUn-73-gFR"/>
                                         <constraint firstItem="t15-SA-akH" firstAttribute="leading" secondItem="U1n-ht-63V" secondAttribute="leading" constant="22" id="akY-FJ-EN0"/>
                                         <constraint firstItem="3iM-uW-j47" firstAttribute="leading" secondItem="U1n-ht-63V" secondAttribute="leading" constant="22" id="bOW-wG-z8F"/>
@@ -548,7 +548,6 @@
                         <constraint firstAttribute="bottom" secondItem="FvN-tK-1VQ" secondAttribute="bottom" id="TGi-lp-EPF"/>
                         <constraint firstItem="1F2-MO-97W" firstAttribute="trailing" secondItem="FvN-tK-1VQ" secondAttribute="trailing" id="akA-9w-KYd"/>
                         <constraint firstItem="1F2-MO-97W" firstAttribute="top" secondItem="sjD-G3-pSp" secondAttribute="top" id="dQe-o7-50H"/>
-                        <constraint firstAttribute="bottom" secondItem="1F2-MO-97W" secondAttribute="bottom" constant="674" id="nc7-l2-xgN"/>
                         <constraint firstItem="FvN-tK-1VQ" firstAttribute="leading" secondItem="sjD-G3-pSp" secondAttribute="leading" id="rPr-kB-G0l"/>
                         <constraint firstItem="FvN-tK-1VQ" firstAttribute="top" secondItem="1F2-MO-97W" secondAttribute="bottom" id="wfS-UC-b76"/>
                     </constraints>

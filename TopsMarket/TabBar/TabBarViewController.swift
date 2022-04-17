@@ -34,5 +34,6 @@ class TabBarViewController: UITabBarController {
         personVC.tabBarItem = UITabBarItem(title: "Cá Nhân", image: UIImage(named: "user1"), selectedImage: UIImage(named: "user1"))
         
         self.viewControllers = [menuVC, danhMucVC, gioHangVC, yeuVC, personVC]
+        
     }
 }

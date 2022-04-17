@@ -26,7 +26,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oyb-Gl-C2r">
-                    <rect key="frame" x="0.0" y="0.0" width="428" height="892"/>
+                    <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NFg-iT-zPq">
                             <rect key="frame" x="0.0" y="0.0" width="428" height="116"/>
@@ -99,7 +99,7 @@
                             </constraints>
                         </view>
                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="LUI-Bp-LfW">
-                            <rect key="frame" x="0.0" y="116" width="428" height="776"/>
+                            <rect key="frame" x="0.0" y="116" width="428" height="810"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KC0-PH-qte">
                                 <size key="itemSize" width="128" height="128"/>
@@ -158,7 +158,7 @@
                             </constraints>
                         </view>
                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="BJh-Xy-Bgg">
-                            <rect key="frame" x="0.0" y="476" width="428" height="416"/>
+                            <rect key="frame" x="0.0" y="476" width="428" height="450"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NI7-Fj-lZh">
                                 <size key="itemSize" width="128" height="128"/>
@@ -196,9 +196,9 @@
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="Oyb-Gl-C2r" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GeA-D2-mxY"/>
+                <constraint firstAttribute="bottom" secondItem="Oyb-Gl-C2r" secondAttribute="bottom" id="Jmx-mC-tyI"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Oyb-Gl-C2r" secondAttribute="trailing" id="SFH-Ll-dql"/>
                 <constraint firstItem="Oyb-Gl-C2r" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="u6f-fB-rnX"/>
-                <constraint firstAttribute="bottom" secondItem="Oyb-Gl-C2r" secondAttribute="bottom" constant="34" id="vmA-AC-gra"/>
             </constraints>
             <point key="canvasLocation" x="131.77570093457942" y="99.136069114470843"/>
         </view>

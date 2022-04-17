@@ -45,7 +45,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQ9-Ul-pCn">
-                                <rect key="frame" x="12" y="213" width="156" height="28"/>
+                                <rect key="frame" x="12" y="205" width="156" height="28"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Thêm vào giỏ hàng">
@@ -76,7 +76,7 @@
                             <constraint firstItem="mtZ-1v-SsF" firstAttribute="leading" secondItem="nyK-wN-Co9" secondAttribute="leading" constant="12" id="0ab-2D-bUk"/>
                             <constraint firstAttribute="trailing" secondItem="kQ9-Ul-pCn" secondAttribute="trailing" constant="12" id="1eK-YA-M3g"/>
                             <constraint firstItem="kQ9-Ul-pCn" firstAttribute="leading" secondItem="nyK-wN-Co9" secondAttribute="leading" constant="12" id="Cyb-Ir-GcH"/>
-                            <constraint firstItem="kQ9-Ul-pCn" firstAttribute="top" secondItem="P3I-jx-pQh" secondAttribute="bottom" constant="40" id="Fh8-to-coW"/>
+                            <constraint firstItem="kQ9-Ul-pCn" firstAttribute="top" secondItem="P3I-jx-pQh" secondAttribute="bottom" constant="32" id="Fh8-to-coW"/>
                             <constraint firstItem="P3I-jx-pQh" firstAttribute="leading" secondItem="nyK-wN-Co9" secondAttribute="leading" constant="12" id="Pq8-fa-lXL"/>
                             <constraint firstAttribute="trailing" secondItem="4Cy-Yq-Ho9" secondAttribute="trailing" constant="12" id="SLa-ZA-Eqy"/>
                             <constraint firstItem="mtZ-1v-SsF" firstAttribute="top" secondItem="3dK-TU-jyE" secondAttribute="bottom" constant="4" id="c7I-2g-NFp"/>
