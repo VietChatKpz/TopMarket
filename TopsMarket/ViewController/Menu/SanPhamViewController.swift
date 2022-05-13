@@ -40,4 +40,16 @@ class SanPhamViewController: UIViewController {
         vc.modalPresentationStyle = .fullScreen
         present(vc, animated: true)
     }
+    @IBAction func themGio(_ sender: Any) {
+        let vc = ThemGioHangViewController()
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
+    @IBAction func datHangAction(_ sender: Any) {
+        let vc = DatHangViewController()
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+        
+        
+    }
 }

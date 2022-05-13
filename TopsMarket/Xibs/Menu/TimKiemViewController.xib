@@ -64,7 +64,7 @@
                                 <constraint firstAttribute="bottom" secondItem="w8s-Ju-lai" secondAttribute="bottom" id="xCC-F7-zMb"/>
                             </constraints>
                         </view>
-                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="RDH-NX-MnV">
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="RDH-NX-MnV">
                             <rect key="frame" x="0.0" y="116" width="414" height="780"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VMm-Sf-8cM">

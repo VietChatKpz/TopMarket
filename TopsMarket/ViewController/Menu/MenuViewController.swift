@@ -35,6 +35,12 @@ class MenuViewController: UIViewController {
     }
 
     func setUp() {
+        secondCollectionView.backgroundView?.backgroundColor = UIColor.clear
+        secondCollectionView.backgroundColor = UIColor.clear
+        
+        sliderImage.backgroundView?.backgroundColor = UIColor.clear
+        sliderImage.backgroundColor = UIColor.clear
+        
         secondCollectionView.delegate = self
         secondCollectionView.dataSource = self
         secondCollectionView.register(UINib(nibName: "FirstCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "FirstCell")
@@ -172,12 +178,12 @@ extension MenuViewController: UICollectionViewDelegate, UICollectionViewDataSour
 extension MenuViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if collectionView == secondCollectionView {
-            return CGSize(width: 96, height: 96)
+            return CGSize(width: secondCollectionView.frame.width/4+12, height: secondCollectionView.frame.height/2-4)
         }else if collectionView == thirtCollectionView {
-            return CGSize(width: 208, height: 268)
+            return CGSize(width: thirtCollectionView.frame.width/2-8, height: thirtCollectionView.frame.height/2+80)
         }
         else {
-            return CGSize(width: 396, height: 108)
+            return CGSize(width: sliderImage.frame.width, height: sliderImage.frame.height)
         }
     }
 }

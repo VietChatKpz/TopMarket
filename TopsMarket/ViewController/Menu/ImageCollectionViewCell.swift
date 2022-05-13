@@ -14,7 +14,7 @@ class ImageCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        imageMenuView.layer.cornerRadius = 12
+        imageMenuView.layer.cornerRadius = 16
     }
 
     func setUpImage(with sliders: Slider){

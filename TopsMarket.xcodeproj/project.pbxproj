@@ -40,6 +40,10 @@
 		90672D6327F4450800A8B0B3 /* YeuThichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90672D6127F4450800A8B0B3 /* YeuThichViewController.swift */; };
 		90672D6427F4450800A8B0B3 /* YeuThichViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90672D6227F4450800A8B0B3 /* YeuThichViewController.xib */; };
 		907F17F627E8A04E00320C1D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907F17F527E8A04E00320C1D /* Launch Screen.storyboard */; };
+		90821B3D282B6BAE00A7356C /* ThemGioHangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90821B3B282B6BAE00A7356C /* ThemGioHangViewController.swift */; };
+		90821B3E282B6BAE00A7356C /* ThemGioHangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90821B3C282B6BAE00A7356C /* ThemGioHangViewController.xib */; };
+		90821B41282B6BCB00A7356C /* DatHangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90821B3F282B6BCB00A7356C /* DatHangViewController.swift */; };
+		90821B42282B6BCB00A7356C /* DatHangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90821B40282B6BCB00A7356C /* DatHangViewController.xib */; };
 		9084EA8F27D10C5A00E91637 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9084EA8E27D10C5A00E91637 /* video.mp4 */; };
 		908C241527F0A1DF00CD4343 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 908C241427F0A1DF00CD4343 /* GoogleService-Info.plist */; };
 		909226A92807DF5E00E6ADB7 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909226A82807DF5E00E6ADB7 /* ConversationsViewController.swift */; };
@@ -53,6 +57,8 @@
 		90C1DE6427EDEBE50090A02B /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C1DE6227EDEBE50090A02B /* PersonViewController.xib */; };
 		90C1DE6727EDEF4D0090A02B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C1DE6527EDEF4D0090A02B /* RegisterViewController.swift */; };
 		90C1DE6827EDEF4D0090A02B /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C1DE6627EDEF4D0090A02B /* RegisterViewController.xib */; };
+		90C6D9E0282E92D1009D125A /* TTDatHangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C6D9DE282E92D1009D125A /* TTDatHangViewController.swift */; };
+		90C6D9E1282E92D1009D125A /* TTDatHangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C6D9DF282E92D1009D125A /* TTDatHangViewController.xib */; };
 		90D1D54727EC869C00E06967 /* DistrictTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1D54527EC869C00E06967 /* DistrictTableViewCell.swift */; };
 		90D1D54827EC869C00E06967 /* DistrictTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D1D54627EC869C00E06967 /* DistrictTableViewCell.xib */; };
 		90D1D54B27EC86B100E06967 /* DistrictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1D54927EC86B100E06967 /* DistrictViewController.swift */; };
@@ -107,6 +113,10 @@
 		90672D6127F4450800A8B0B3 /* YeuThichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeuThichViewController.swift; sourceTree = "<group>"; };
 		90672D6227F4450800A8B0B3 /* YeuThichViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YeuThichViewController.xib; sourceTree = "<group>"; };
 		907F17F527E8A04E00320C1D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		90821B3B282B6BAE00A7356C /* ThemGioHangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemGioHangViewController.swift; sourceTree = "<group>"; };
+		90821B3C282B6BAE00A7356C /* ThemGioHangViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThemGioHangViewController.xib; sourceTree = "<group>"; };
+		90821B3F282B6BCB00A7356C /* DatHangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatHangViewController.swift; sourceTree = "<group>"; };
+		90821B40282B6BCB00A7356C /* DatHangViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatHangViewController.xib; sourceTree = "<group>"; };
 		9084EA8E27D10C5A00E91637 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		908C241427F0A1DF00CD4343 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		909226A82807DF5E00E6ADB7 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +131,8 @@
 		90C1DE6227EDEBE50090A02B /* PersonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
 		90C1DE6527EDEF4D0090A02B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		90C1DE6627EDEF4D0090A02B /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		90C6D9DE282E92D1009D125A /* TTDatHangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTDatHangViewController.swift; sourceTree = "<group>"; };
+		90C6D9DF282E92D1009D125A /* TTDatHangViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTDatHangViewController.xib; sourceTree = "<group>"; };
 		90D1D54527EC869C00E06967 /* DistrictTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictTableViewCell.swift; sourceTree = "<group>"; };
 		90D1D54627EC869C00E06967 /* DistrictTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DistrictTableViewCell.xib; sourceTree = "<group>"; };
 		90D1D54927EC86B100E06967 /* DistrictViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictViewController.swift; sourceTree = "<group>"; };
@@ -156,13 +168,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9017BD7327F987F200C11188 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Libraries;
-			sourceTree = "<group>";
-		};
 		9017BD7627F98B2300C11188 /* Address */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +193,9 @@
 				90174C5327FFD975007F511E /* SanPhamViewController.xib */,
 				90174C5727FFDB1E007F511E /* TimKiemViewController.xib */,
 				901C473A2804098E002AE4FF /* ThongTinViewController.xib */,
+				90821B3C282B6BAE00A7356C /* ThemGioHangViewController.xib */,
+				90821B40282B6BCB00A7356C /* DatHangViewController.xib */,
+				90C6D9DF282E92D1009D125A /* TTDatHangViewController.xib */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -232,7 +240,7 @@
 			path = Asset;
 			sourceTree = "<group>";
 		};
-		904C63D427E4ADF500DBA327 /* Xib */ = {
+		904C63D427E4ADF500DBA327 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
 				90E33D702806705400BDE177 /* YeuThich */,
@@ -242,7 +250,7 @@
 				90B9132F27F5771300E63FEE /* LogIn */,
 				907F17F527E8A04E00320C1D /* Launch Screen.storyboard */,
 			);
-			path = Xib;
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 		905E64BF27CB9AF8003A8EB0 = {
@@ -250,7 +258,6 @@
 			children = (
 				905E64CA27CB9AF8003A8EB0 /* TopsMarket */,
 				905E64C927CB9AF8003A8EB0 /* Products */,
-				90C1DE5C27EDA18D0090A02B /* Helper */,
 				92EB90BA13A019A2EB53B140 /* Pods */,
 				42ECDD3478FE8E3C713E16DB /* Frameworks */,
 			);
@@ -272,9 +279,8 @@
 				9017BD7D27FAD98D00C11188 /* Moder */,
 				9017BD7827F9D8F100C11188 /* FireBase */,
 				905E64CB27CB9AF8003A8EB0 /* AppDelegate.swift */,
-				9017BD7327F987F200C11188 /* Libraries */,
 				90672D5227F4009D00A8B0B3 /* TabBar */,
-				904C63D427E4ADF500DBA327 /* Xib */,
+				904C63D427E4ADF500DBA327 /* Xibs */,
 				904C63D227E4AD8D00DBA327 /* ViewController */,
 				904C63D327E4ADB800DBA327 /* Asset */,
 				908C241327F0A1C700CD4343 /* Helper */,
@@ -317,16 +323,12 @@
 			path = LogIn;
 			sourceTree = "<group>";
 		};
-		90C1DE5C27EDA18D0090A02B /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
 		90CE9FCB27FD646F000A486C /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				90C6D9DE282E92D1009D125A /* TTDatHangViewController.swift */,
+				90821B3F282B6BCB00A7356C /* DatHangViewController.swift */,
+				90821B3B282B6BAE00A7356C /* ThemGioHangViewController.swift */,
 				905E64E327CBA600003A8EB0 /* MenuViewController.swift */,
 				90174C5227FFD975007F511E /* SanPhamViewController.swift */,
 				90672D5727F410D000A8B0B3 /* FirstCollectionViewCell.swift */,
@@ -468,7 +470,9 @@
 				90D1D54827EC869C00E06967 /* DistrictTableViewCell.xib in Resources */,
 				908C241527F0A1DF00CD4343 /* GoogleService-Info.plist in Resources */,
 				905E64E627CBA600003A8EB0 /* MenuViewController.xib in Resources */,
+				90821B3E282B6BAE00A7356C /* ThemGioHangViewController.xib in Resources */,
 				907F17F627E8A04E00320C1D /* Launch Screen.storyboard in Resources */,
+				90821B42282B6BCB00A7356C /* DatHangViewController.xib in Resources */,
 				905E64D527CB9AFA003A8EB0 /* Assets.xcassets in Resources */,
 				90C1DE6027EDEA9B0090A02B /* DanhMucViewController.xib in Resources */,
 				90E33D652806639100BDE177 /* DanhSachViewController.xib in Resources */,
@@ -483,6 +487,7 @@
 				90E33D6A280669A900BDE177 /* NgayTableViewCell.xib in Resources */,
 				90672D5A27F410D000A8B0B3 /* FirstCollectionViewCell.xib in Resources */,
 				9017BD8327FB253300C11188 /* ImageCollectionViewCell.xib in Resources */,
+				90C6D9E1282E92D1009D125A /* TTDatHangViewController.xib in Resources */,
 				905E64EE27CBB5D1003A8EB0 /* NotifyViewController.xib in Resources */,
 				90B80AAE27EC5F5400996682 /* CityTableViewCell.xib in Resources */,
 				90B80AAA27EC5DA300996682 /* CityViewController.xib in Resources */,
@@ -546,6 +551,7 @@
 				905E64E127CB9B79003A8EB0 /* LogInViewController.swift in Sources */,
 				90B80AAD27EC5F5400996682 /* CityTableViewCell.swift in Sources */,
 				90E33D6D28066B5C00BDE177 /* NgayViewController.swift in Sources */,
+				90821B3D282B6BAE00A7356C /* ThemGioHangViewController.swift in Sources */,
 				901C473B2804098E002AE4FF /* ThongTinViewController.swift in Sources */,
 				90E33D602805A4E500BDE177 /* CaiDatViewController.swift in Sources */,
 				90672D5F27F444F800A8B0B3 /* GioHangViewController.swift in Sources */,
@@ -557,10 +563,12 @@
 				909226A92807DF5E00E6ADB7 /* ConversationsViewController.swift in Sources */,
 				90E33D642806639100BDE177 /* DanhSachViewController.swift in Sources */,
 				90672D5927F410D000A8B0B3 /* FirstCollectionViewCell.swift in Sources */,
+				90C6D9E0282E92D1009D125A /* TTDatHangViewController.swift in Sources */,
 				905E64E927CBB5BE003A8EB0 /* AddressViewController.swift in Sources */,
 				9017BD7A27F9D91400C11188 /* FireBaseAuthManager.swift in Sources */,
 				9017BD7C27FAB74900C11188 /* AlertHelper.swift in Sources */,
 				90C1DE6327EDEBE50090A02B /* PersonViewController.swift in Sources */,
+				90821B41282B6BCB00A7356C /* DatHangViewController.swift in Sources */,
 				90672D6327F4450800A8B0B3 /* YeuThichViewController.swift in Sources */,
 				9017BD7227F9814100C11188 /* SanPham.swift in Sources */,
 				90C1DE5F27EDEA9B0090A02B /* DanhMucViewController.swift in Sources */,
@@ -708,7 +716,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to select a photo for your profile";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -737,7 +745,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to select a photo for your profile";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

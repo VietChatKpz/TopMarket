@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 struct DanhMuc {
-    var image = String()
+var image = String()
     var name = String()
 }
 

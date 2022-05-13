@@ -20,15 +20,7 @@ class RegisterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setUp()
-    }
-
-    func setUp(){
-        logoView.layer.cornerRadius = 60
-        emailTextField.layer.cornerRadius = 8
-        passworkTextField.layer.cornerRadius = 8
-        registerButton.layer.cornerRadius = 8
-        self.passworkTextField.isSecureTextEntry = true
+        passworkTextField.isSecureTextEntry = true
 
     }
     

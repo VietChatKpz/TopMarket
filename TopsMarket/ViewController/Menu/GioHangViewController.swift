@@ -47,6 +47,6 @@ extension GioHangViewController: UICollectionViewDelegate, UICollectionViewDataS
 
 extension GioHangViewController: UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 208, height: 268)
+        return CGSize(width: gioHangCollectionVIew.frame.width/2-8, height: gioHangCollectionVIew.frame.height/2-32)
     }
 }

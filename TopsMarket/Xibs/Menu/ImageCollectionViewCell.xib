@@ -20,7 +20,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m4O-gC-XwZ">
                         <rect key="frame" x="0.0" y="0.0" width="396" height="108"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="111" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9pb-sg-gTK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="111" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="panel1" translatesAutoresizingMaskIntoConstraints="NO" id="9pb-sg-gTK">
                                 <rect key="frame" x="0.0" y="0.0" width="396" height="108"/>
                             </imageView>
                         </subviews>
@@ -51,6 +51,7 @@
         </collectionViewCell>
     </objects>
     <resources>
+        <image name="panel1" width="1151" height="367"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

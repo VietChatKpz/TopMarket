@@ -10,12 +10,18 @@ import UIKit
 class DanhMucViewController: UIViewController {
 
     @IBOutlet weak var danhMucCollectionView: UICollectionView!
+    @IBOutlet weak var chiCollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         danhMucCollectionView.delegate = self
         danhMucCollectionView.dataSource = self
         danhMucCollectionView.register(UINib(nibName: "FirstCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "dMucCell")
+        
+        chiCollectionView.delegate = self
+        chiCollectionView.dataSource = self
+        chiCollectionView.register(UINib(nibName: "FirstCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "chiCell")
         
     }
     override func viewWillDisappear(_ animated: Bool) {
@@ -38,9 +44,16 @@ extension DanhMucViewController: UICollectionViewDelegate, UICollectionViewDataS
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = danhMucCollectionView.dequeueReusableCell(withReuseIdentifier: "dMucCell", for: indexPath) as! FirstCollectionViewCell
-        cell.setUp(with: arrDM[indexPath.row])
-        return cell
+        if collectionView == danhMucCollectionView {
+            let cell = danhMucCollectionView.dequeueReusableCell(withReuseIdentifier: "dMucCell", for: indexPath) as! FirstCollectionViewCell
+            cell.setUp(with: arrDM[indexPath.row])
+            return cell
+        }
+        else {
+            let cell = chiCollectionView.dequeueReusableCell(withReuseIdentifier: "chiCell", for: indexPath) as! FirstCollectionViewCell
+            cell.setUp(with: arrDM[indexPath.row])
+            return cell
+        }
     }
 }
 
